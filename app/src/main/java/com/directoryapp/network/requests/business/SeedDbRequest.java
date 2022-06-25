@@ -59,6 +59,7 @@ public class SeedDbRequest extends Request {
                         "Nairobi",
                         openHours,
                         c.getImageUrl(),
+                        new ArrayList<>(),
                         c,
                         new User("Owner 1", "owner1@gmail.com", "0700123456", new ArrayList<>())
                 ));

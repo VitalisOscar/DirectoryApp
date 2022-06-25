@@ -12,14 +12,14 @@ public class Business extends Model {
     private Category category = null;
     private User owner = null;
     private Map<String, Map<String, Object>> openHours;
-    private ArrayList<String> searchIndex;
+    private ArrayList<String> searchIndex, allImages;
 
 
-    public Business(String name, String description, String address, String town, Map<String, Map<String, Object>> openHours, String imageUrl, Category category, User owner) {
-        this(name, description, address, town, openHours, imageUrl, category, owner, null, null, null);
+    public Business(String name, String description, String address, String town, Map<String, Map<String, Object>> openHours, String imageUrl, ArrayList<String> allImages, Category category, User owner) {
+        this(name, description, address, town, openHours, imageUrl, allImages, category, owner, null, null, null);
     }
 
-    public Business(String name, String description, String address, String town, Map<String, Map<String, Object>> openHours, String imageUrl, Category category, User owner, ArrayList<String> searchIndex, String id, String timestamp) {
+    public Business(String name, String description, String address, String town, Map<String, Map<String, Object>> openHours, String imageUrl, ArrayList<String> allImages, Category category, User owner, ArrayList<String> searchIndex, String id, String timestamp) {
         super(id, timestamp);
 
         this.name = name;
@@ -28,6 +28,12 @@ public class Business extends Model {
         this.town = town;
         this.openHours = openHours;
         this.imageUrl = imageUrl;
+        this.allImages = allImages == null ? new ArrayList<>() : allImages;
+
+        if(imageUrl != null && !this.allImages.contains(imageUrl)){
+            this.allImages.add(imageUrl);
+        }
+
         this.category = category;
         this.owner = owner;
 
@@ -45,6 +51,7 @@ public class Business extends Model {
             (String) data.get("town"),
             (Map<String, Map<String, Object>>) data.get("openHours"),
             (String) data.get("imageUrl"),
+            (ArrayList<String>) data.get("allImages"),
             Category.fromMap((Map<String, Object>) data.get("category")),
             User.fromMap((Map<String, Object>) data.get("owner")),
             (ArrayList<String>) data.get("searchIndex"),
@@ -76,6 +83,7 @@ public class Business extends Model {
         Map<String, Object> data = super.toMap();
         data.put("searchIndex", searchIndex);
         data.put("openHours", openHours);
+        data.put("allImages", allImages);
         return data;
     }
 
@@ -103,6 +111,10 @@ public class Business extends Model {
         return imageUrl;
     }
 
+    public ArrayList<String> getAllImages() {
+        return allImages;
+    }
+
     public String getAddress() {
         return address;
     }
@@ -117,5 +129,9 @@ public class Business extends Model {
 
     public Map<String, Map<String, Object>> getOpenHours() {
         return openHours;
+    }
+
+    public boolean isOpen(){
+        return true;
     }
 }
