@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:gravity="center"
+        android:padding="50dp"
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_baseline_mood_bad_24"
+            app:tint="#FF8F00"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:textStyle="bold"
+            android:text="Oops!"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat"
+            android:text="An error was encountered when trying to fetch some data"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_horizontal" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retry"
+            android:id="@+id/retry"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            />
+
+    </LinearLayout>
+</FrameLayout>

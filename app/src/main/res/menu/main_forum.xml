@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Refresh"
+        android:id="@+id/itemRefresh"/>
+
+    <item
+        android:title="Ask Question"
+        android:id="@+id/itemQuestion"/>
+
+    <item
+        android:title="Seed"
+        android:id="@+id/itemSeed"/>
+</menu>

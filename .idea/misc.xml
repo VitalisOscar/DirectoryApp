@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/debug/res/mipmap-anydpi-v26/ic_banner.xml" value="0.1595" />
+        <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1945" />
+        <entry key="app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1945" />
+        <entry key="app/src/main/res/drawable/ic_baseline_lock_open_24.xml" value="0.1945" />
+        <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.12449799196787148" />
+        <entry key="app/src/main/res/layout-w936dp/activity_login.xml" value="0.1284153005464481" />
+        <entry key="app/src/main/res/layout/activity_app_update.xml" value="0.15353260869565216" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.15353260869565216" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_products.xml" value="0.1213768115942029" />
+        <entry key="app/src/main/res/layout/activity_re_login.xml" value="0.15353260869565216" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_single_place.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_single_product.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_user_account.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/dialog_check_in.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/dialog_host_select.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/dialog_issue_card.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/dialog_staff_select.xml" value="0.15353260869565216" />
+        <entry key="app/src/main/res/layout/dialog_visitor_info.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/fragment_businesses_home.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/fragment_check_in.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/fragment_forum_home.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.15353260869565216" />
+        <entry key="app/src/main/res/layout/fragment_market_home.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/fragment_staff_check_in.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/fragment_vehicle_check_out.xml" value="0.15353260869565216" />
+        <entry key="app/src/main/res/layout/fragment_visitor_check_in.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/layout_checkin_vehicle.xml" value="0.15353260869565216" />
+        <entry key="app/src/main/res/layout/layout_fetch_error.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/layout_no_data.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/layout_view_visitor_info.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/layout_visit_items_info.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/layout_visitor_check_in.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/placeholder_category.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/placeholder_product.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/view_business.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/view_category.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/view_grid_product.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/view_product.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.19375" />
+        <entry key="app/src/main/res/menu/main_bottom.xml" value="0.19375" />
+        <entry key="app/src/main/res/menu/main_forum.xml" value="0.19375" />
+        <entry key="app/src/main/res/menu/main_market.xml" value="0.19375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
